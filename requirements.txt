@@ -1,0 +1,14 @@
+scanpy
+torch==1.10
+CUDA=cu102
+pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.0+${CUDA}.html
+pip install torch-sparse -f https://data.pyg.org/whl/torch-1.10.0+${CUDA}.html
+pip install torch-geometric
+pip install torch-geometric-temporal
+numpy
+pandas
+seaborn
+fastcluster
+captum
+torchvision
+torchshape
